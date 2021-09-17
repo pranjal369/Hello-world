@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P.Fashion Hub</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Besley:ital,wght@1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('img/855631.jpg');
+        height: 4560px;
+        font-family: 'Besley', serif;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+
+    }
+
+    #center1 {
+        position: sticky;
+        top: 3px;
+        width: 60%;
+        margin: 28px auto;
+        padding: 0px 7px;
+        /* border: 2px solid rgb(1, 14, 1); */
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 0px;
+        width: 211 px;
+        text-align: center;
+        /* border: 2px solid yellow; */
+        margin: 19px auto;
+        padding: 10px;
+        display: inline-block;
+    }
+
+    .navbar {
+        display: inline-block;
+
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 18px;
+
+    }
+
+    .navbar li a {
+        color: rgb(253, 235, 235);
+        text-decoration: none;
+        padding: 34px 30px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(7, 3, 43);
+    }
+
+    .left img {
+        width: 77px;
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 14px;
+        color: rgb(205, 193, 214);
+        text-align: center;
+    }
+
+    .btn {
+        margin: 0px 4px;
+        padding: 6px 13px;
+        border: 2px solid gray;
+        background-color: black;
+        color: white;
+        border-radius: 12px;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: 'Besley', serif;
+    }
+
+    .btn:hover {
+        text-decoration: underline;
+        color: rgb(226, 216, 216);
+    }
+
+    .container {
+        border: 2px solid #ececf2;
+        margin: 109px 161px;
+        width: 33%;
+        border-radius: 2px;
+    }
+
+    .form input {
+        text-align: center;
+        margin: 8px 21px;
+        display: inline-block;
+        width: 555px;
+        padding: 4px;
+        border-radius: 11px;
+        font-family: 'Besley', serif;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+
+    .container button {
+        display: inline-block;
+        width: 91%;
+        margin: 0px 18px;
+        background-color: rgb(24, 24, 23);
+        color: white;
+    }
+</style>
+
+<body>
+    <header class="class">
+
+        <!-- Left box for Logo -->
+        <div class="left">
+            <img src="img/th.jpg" alt="">
+
+            <div>P.Fashion</div>
+        </div>
+
+        <!-- Center for navbar -->
+
+        <div class="center" id="center1">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+
+            </ul><!-- Right for buttons -->
+        </div>
+
+        <div class="right">
+            <button class="btn">Call Us </button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Fashion Classes at Gwalior Now</h1>
+        <form action="noaction.php">
+            <div class="form">
+                <input type="text" name="" placeholder=" Name">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Gender">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Age">
+            </div>
+            <div class="form">
+                <input type="text" name="" placeholder="Address">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
